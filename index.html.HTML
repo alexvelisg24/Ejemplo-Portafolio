@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Producto</title>
+    <style>
+
+         .title h1,h3{
+            color: white;
+        }
+        
+        .title{
+            margin: 10px;
+            border: 20px;
+            border-color: black;
+            background-color:black;
+            align-content: center;
+            text-align: center;
+
+
+        }
+
+           body{
+        margin: 0;
+        font-family: Arial, sans-serif;
+        
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        color: white;
+       }
+       
+       .navbar{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+    
+        backdrop-filter: blur(8px);
+        display:flex-end;
+        justify-content: flex-end;
+        padding: 20px 40px;
+        box-sizing:border-box;
+        z-index: 1000;
+        align-content: center;
+        text-align: center;
+        color: y;
+       }
+       .navbar ul{
+        list-style: none;
+        margin: 0%;
+        padding: 0%;
+        display: flex;
+        gap: 30px;
+        align-content: center;
+        text-align: center;
+       }
+       .navbar a{
+        color: white;
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: bold;
+        transition: color o.3s ease;
+        align-content: center;
+        text-align: center;
+       }
+       .ul{
+        text-align: center;
+        align-content: center;
+       }
+       main{
+        margin: 10px;
+        background-color: black;
+        text-align: center;
+        align-content: center;
+        
+
+       }
+       footer{
+        margin: 10px;
+        color: aqua;
+        margin: 10px;
+        background-color: black;
+        text-align: center;
+        align-content: center;
+
+       }
+       hr{
+        color: yellowgreen;
+        border: 20px;
+       }
+       
+       
+
+    </style>
+    
+    <div class="barra">
+            <nav class="navbar">
+                
+                    <ul>
+                        <li><a href="index.html">inicio</a></li>
+                        <li><a href="#Mision">más Productos</a></li>
+                        <li><a href="#Registrese">Registrese </a></li>
+                    </ul>
+                
+                
+            </nav>
+        </div>
+
+</head>
+<body>
+    <header>
+        <div class="title">
+            <br>
+            <br>
+            <br>
+            <br>
+            <h1> TIENDA SAN JOSE </h1>
+            <H3>"Tu mejor Amigo, tu mejor Aliado, tu mejor Producto."</H3>
+            <img src="img/TiendaSanJose.png" alt="imagen de la tienda " width="800" height="600">
+
+        </div>
+
+    </header>
+    <main> 
+        <div>
+            
+                <h4>En San José trabajamos día a día para ser el corazón de nuestro barrio y el apoyo constante de su hogar.</h4>
+
+                <h2>Nuestra Misión</h2>
+            
+            
+        </div>
+        <div> 
+            <article class="pro">
+            <h3>Snacks: Doritos Nacho Cheese 60 g</h3>
+            <img src="img/p1.png" alt="Productos ">
+            <p>Crujientes nachos con intenso sabor a queso.</p>
+            <h4>Q10.75</h4>
+
+
+        </article>
+        </div>
+        <hr>
+        <div>
+            <article class="pro">
+            <h3>Snacks: Doritos Nacho Cheese 60 g</h3>
+            <img src="img/p1.png" alt="Productos ">
+            <p>Crujientes nachos con intenso sabor a queso.</p>
+            <h4>Q10.75</h4>
+            <button>Comprar</button>
+        </article>
+        </div>
+        <hr>
+        <div>
+            <article class="pro">
+            <h3>Bebidas</h3>
+            <img src="img/p2.png" alt="productos">
+            <p>Coca-Cola 600 ml: 
+            Refresco gaseoso con su clásico sabor.</p>
+            <h4>Q8.00</h4>
+            <button>Comprar</button>
+        </article>
+
+        </div>
+        <hr>
+        <div>
+            <article class="pro">
+            <h3>Abarrotes</h3>
+            <img src="img/p3.png" alt="Productos">
+            <p>LALA Leche Entera 946 ml:
+            Leche entera ideal para acompañar tus comidas</p>
+            <h4>Q15.80</h4>
+            <button>Comprar</button>
+        </article> 
+
+        </div>
+        <hr>
+        <div>
+        <article class="pro">
+            <h3>Lácteos</h3>
+            <img src="img/p4.png" alt="productos">
+            <p>LALA Leche Entera 946 ml: 
+            Leche entera ideal para acompañar tus comidas.</p>
+            <h4>Q15.80</h4>
+            <button>Comprar</button>
+        </article>
+
+        </div>
+
+
+    
+
+        
+
+    </main>
+
+    <footer>
+        <section id="Registrese">
+            <div>
+            <h5>!Ordena tus pedidos Ya!</h5>
+            <h4>Comunicate con nosotros ahora mismo y registrate:</h4>
+            
+            <div>
+                <form action="Pedidos">
+                <label for="dirreccion">dirrección</label>
+                <input type="text" placeholder="Ingresa tu dirrección actual." required>
+                <br>
+                <br>
+
+                <label for="correo">Ingresa tu correo electronico</label>
+                <input type="email" placeholder="Ingresa tu correo electronico" required>
+                <br>
+                <br>
+                <label for="telefono">Ingresa tu número de telefono</label>
+                <input type="tel" placeholder="Ingresa tu numero de telefono">
+            </form>
+
+            </div>
+            
+        </div>
+
+        </section>
+        
+
+    </footer>
+    
+    
+</body>
+</html>
